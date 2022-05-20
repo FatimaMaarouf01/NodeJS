@@ -1,0 +1,371 @@
+.body {
+  margin: 0px;
+  padding: 0px;
+  background-color: beige;
+}
+.main-title a:link,
+.main-title a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.div1 {
+  background-color: rgb(255, 0, 0);
+  color: white;
+  text-align: center;
+  height: auto;
+  width: 100%;
+  margin: 0px;
+  position: relative;
+  top: 0px;
+  padding-top: 10px;
+}
+.main-title {
+  font-family: "Alfa Slab One", cursive;
+  vertical-align: middle;
+  margin: 0px;
+}
+.div1 h2 {
+  margin: 0px;
+  margin-top: 2%;
+  font-family: "Permanent Marker", cursive;
+}
+
+.div1 a:hover {
+  color: white;
+}
+
+.div2 {
+  background-color: rgb(131, 197, 199);
+  color: black;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  margin: 0px;
+  height: auto;
+}
+.div2 > h2 {
+  margin: 0px;
+  padding-top: 10px;
+}
+.div2 ul {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 0px;
+}
+.div2 ul li {
+  padding: 15px;
+  font-size: larger;
+}
+.div3 {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(233, 94, 89);
+  position: relative;
+  width: 100%;
+  justify-content: space-around;
+}
+.div3 > div {
+  font-family: "Permanent Marker", cursive;
+  background-color: whitesmoke;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
+a:link,
+a:visited {
+  text-decoration: underline;
+  color: black;
+}
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+.div4 {
+  text-align: left;
+  position: relative;
+  width: 85%;
+  justify-content: space-evenly;
+  left: 15%;
+  top: -300px;
+}
+
+.div4 > div {
+  background-color: rgb(233, 94, 89);
+
+  width: 85%;
+  position: relative;
+  margin-top: 5%;
+  margin-left: 5%;
+  padding: 10% 0% 0% 5%;
+  padding-top: 1%;
+  display: flex;
+  justify-content: start;
+}
+
+.div4 ul {
+  padding-bottom: 20px;
+  padding-right: 30px;
+}
+li {
+  padding: 5px;
+  font-size: large;
+}
+h3 {
+  font-family: "Permanent Marker", cursive;
+  text-decoration: underline;
+  font-size: x-large;
+}
+.howTo {
+  background-color: lightblue;
+  text-align: center;
+  position: sticky;
+
+  padding: 1%;
+  justify-content: space-around;
+  width: 15%;
+
+  vertical-align: middle;
+}
+.howTo > div {
+  background-color: lightcoral;
+  padding: 4%;
+  margin: 4%;
+  display: flex;
+  justify-content: center;
+}
+
+#header {
+  background-color: rgb(19, 233, 248);
+}
+
+.img1 {
+  width: 100%;
+}
+
+.img2 {
+  width: 100%;
+}
+
+.img3 {
+  width: 100%;
+}
+.img4 {
+  width: 100%;
+}
+.img5 {
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .div2 ul {
+    display: inline;
+  }
+  .div2 ul li {
+    padding: 10px;
+    font-size: medium;
+  }
+  .div3 {
+    display: inline-flex;
+    width: 100%;
+  }
+  .div4 {
+    top: 0px;
+    left: auto;
+    width: 100%;
+  }
+  .div4 > div {
+    display: block;
+    padding: 5px;
+  }
+  .div4 ul {
+    font-size: small;
+    padding-right: 5px;
+  }
+  .howTo {
+    position: relative;
+    width: 100%;
+
+    padding: 5px 0px;
+  }
+  .img1 {
+    width: 100%;
+  }
+  .img2 {
+    width: 100%;
+  }
+  .gif1 {
+    width: 100%;
+  }
+  .img3 {
+    width: 100%;
+  }
+  .div4 li {
+    font-size: small;
+  }
+  h3 {
+    font-size: large;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  .div2 ul li {
+    padding: 10px;
+    font-size: medium;
+  }
+
+  .div4 {
+    top: -320px;
+  }
+  .div4 > div {
+    display: block;
+  }
+  .div4 ul {
+    font-size: medium;
+    padding-right: 5px;
+  }
+  .howTo {
+    top: 50px;
+  }
+  .img1 {
+    width: 100%;
+  }
+  .img2 {
+    width: 100%;
+  }
+  .img3 {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .div2 ul {
+    display: flex;
+  }
+  .div2 ul li {
+    padding: 10px;
+    font-size: larger;
+  }
+  .div3 {
+    display: inline-flex;
+  }
+  .div4 {
+    top: -300px;
+  }
+  .div4 > div {
+    display: block;
+  }
+  .div4 ul {
+    font-size: medium;
+    padding-right: 5px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .div1 {
+    font-size: large;
+  }
+  .div2 {
+    text-align: center;
+    font-size: larger;
+  }
+  .div2 ul {
+    display: flex;
+  }
+  .div2 ul li {
+    padding: 10px;
+  }
+  .div3 {
+    display: inline-flex;
+    font-size: larger;
+  }
+  .div3 div {
+    font-size: large;
+  }
+  .div4 {
+    top: -370px;
+  }
+  .div4 > div {
+    display: flex;
+  }
+  .div4 h3 {
+    font-size: x-large;
+  }
+  .div4 ul li {
+    font-size: larger;
+    padding-right: 5px;
+  }
+  .howTo {
+    font-size: large;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .div1 {
+    text-align: center;
+    font-size: 30px;
+  }
+  .div2 h2 {
+    font-size: 30px;
+  }
+  .div2 ul {
+    display: flex;
+    font-size: 20px;
+  }
+
+  .div3 div {
+    display: inline-flex;
+    font-size: x-large;
+  }
+  .div4 h3 {
+    font-size: xx-large;
+  }
+  .div4 {
+    top: -450px;
+  }
+  .div4 > div {
+    display: flex;
+  }
+  .div4 ul {
+    font-size: x-large;
+    padding-right: 5px;
+  }
+  .howTo {
+    font-size: x-large;
+  }
+}
+@media screen and (min-width: 1700px) {
+  .div1 {
+    text-align: center;
+    font-size: 50px;
+  }
+  .div2 h2 {
+    font-size: 40px;
+  }
+  .div2 ul {
+    font-size: 30px;
+  }
+
+  .div3 div {
+    font-size: 40px;
+  }
+  .div4 {
+    top: -500px;
+  }
+  .div4 h3 {
+    font-size: 40px;
+  }
+  .div4 ul {
+    font-size: 30px;
+  }
+  .howTo {
+    font-size: 30px;
+  }
+  .howTo > div {
+    padding: 10px;
+
+    margin: 5px;
+  }
+}

@@ -1,0 +1,89 @@
+.body {
+    margin: 0px;
+    padding: 0px;
+    background-color: beige;
+  }
+  .main-title a:link,
+  .main-title a:visited {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .div1 {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    margin: 0px;
+    position: relative;
+    top: 0px;
+    padding-top: 10px;
+  }
+  .main-title {
+    font-family: "Alfa Slab One", cursive;
+    vertical-align: middle;
+    margin: 0px;
+  }
+  .div1 h2 {
+    font-family: "Permanent Marker", cursive;
+    margin: 0px;
+    margin-top: 2%;
+  }
+  
+  .div1 a:hover {
+    color: white;
+  }
+  
+  .div2 {
+    background-color: rgb(131, 197, 199);
+    color: black;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    margin: 0px;
+    height: auto;
+  }
+  .div2 > h2 {
+    margin: 0px;
+    padding-top: 10px;
+  }
+  .div2 ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0px;
+  }
+  .div2 ul li {
+    padding: 15px;
+    font-size: larger;
+  }
+
+  table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: #04AA6D;
+    color: white;
+    border: 1px solid #ddd;
+    padding: 12px;
+    font-weight: 600;
+}
+
+tr, td{
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
